@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Pyidaungsu';
+  src: url('../fonts/Pyidaungsu.eot');
+  src: url('../fonts/Pyidaungsu.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Pyidaungsu.woff') format('woff'),
+    url('../fonts/Pyidaungsu.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: Pyidaungsu;
 }
@@ -203,6 +212,7 @@ img {
   padding: 10px;
   width: 110px;
   border-radius: 5px;
+  margin-bottom: 10px
 }
 
 @media (max-width: 62em) {
